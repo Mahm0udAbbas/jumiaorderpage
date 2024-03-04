@@ -1,14 +1,10 @@
 "use client";
-import LocalPoliceOutlinedIcon from "@mui/icons-material/LocalPoliceOutlined";
-import { Card, Label, Select, FloatingLabel } from "flowbite-react";
+// import LocalPoliceOutlinedIcon from "@mui/icons-material/LocalPoliceOutlined";
+import { Card } from "flowbite-react";
 import SaveButton from "../Button/SaveButton";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 
 function ProccedToBuy() {
-  const route = useRouter();
-  // function handleRoute() {
-  //   route.push("/user");
-  // }
   function handleSubmit() {
     console.log("submit");
   }
@@ -41,13 +37,6 @@ function ProccedToBuy() {
             />
           </div>
         </div>
-        <button
-          onClick={() => {
-            handleRoute();
-          }}
-        >
-          Save
-        </button>
       </Card>
     </>
   );

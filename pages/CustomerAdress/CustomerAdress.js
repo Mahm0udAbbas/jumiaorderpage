@@ -1,11 +1,10 @@
-"use client";
 import { Card } from "flowbite-react";
-import ListHeader from "../Header/Header";
+import ListHeader from "../../components/Header/Header";
 
 function CustomerAdress() {
   return (
     <>
-      <section className="">
+      <section className="bg-[#e5e5e580]">
         <Card>
           <div className="flex justify-between items-center">
             <ListHeader value="delivery details" color="text-green-900" />

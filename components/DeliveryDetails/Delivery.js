@@ -10,5 +10,4 @@ function Delivery() {
     </div>
   );
 }
-
 export default Delivery;
