@@ -128,7 +128,7 @@ function EditAdressForm() {
   };
   const router = useRouter();
   const handleSubmit = () => {
-    router.push("/CustomerAdress");
+    router.push("/editdelivery");
     console.log(errors);
     console.log(isFormValid);
     if (isFormValid) {

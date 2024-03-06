@@ -1,8 +1,7 @@
 "use client";
-import Delivery from "../../components/DeliveryDetails/Delivery";
+import Delivery from "@/components/DeliveryDetails/Delivery";
 import EditAdressForm from "../../components/EditAdressForm/EditAdressForm";
 import PaymentMethod from "../../components/PaymentMethod/PaymentMethod";
-
 function FirstPage() {
   return (
     <>

@@ -1,9 +1,6 @@
 "use client";
-// import LocalPoliceOutlinedIcon from "@mui/icons-material/LocalPoliceOutlined";
 import { Card } from "flowbite-react";
 import SaveButton from "../Button/SaveButton";
-// import { useRouter } from "next/router";
-
 function ProccedToBuy() {
   function handleSubmit() {
     console.log("submit");

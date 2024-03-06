@@ -1,5 +1,5 @@
+"use client";
 import { Label, Select } from "flowbite-react";
-
 function SelectInputField({ governorates, lableValue }) {
   return (
     <div className="max-w-md">

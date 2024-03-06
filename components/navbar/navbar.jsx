@@ -5,7 +5,7 @@ import PermPhoneMsgOutlinedIcon from "@mui/icons-material/PermPhoneMsgOutlined";
 import KeyboardReturnOutlinedIcon from "@mui/icons-material/KeyboardReturnOutlined";
 import LocalPoliceOutlinedIcon from "@mui/icons-material/LocalPoliceOutlined";
 import Link from "next/link";
-import { Navbar, Button } from "flowbite-react";
+import { Navbar } from "flowbite-react";
 
 import { AutoAwesomeMosaicRounded } from "@mui/icons-material";
 function MyNavbar() {
@@ -24,59 +24,37 @@ function MyNavbar() {
       </h1>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Navbar.Link as={Link} href="#">
-          <div className="flex">
-            <div className="flex flex-row items-center">
+        <Link href="#">
+          <span className="flex">
+            <span className="flex flex-row items-center">
               <PermPhoneMsgOutlinedIcon className="mx-4 " />
-              <div className="flex flex-col text-sm">
+              <span className="flex flex-col text-sm">
                 <span>Need Help?</span>
-                <Link href="/about">Contact Us</Link>
-              </div>
-            </div>
-          </div>
-        </Navbar.Link>
-        <Navbar.Link as={Link} href="#">
-          <div className="flex flex-row items-center ">
+                <span>Contact Us</span>
+              </span>
+            </span>
+          </span>
+        </Link>
+        <Link href="#">
+          <span className="flex flex-row items-center ">
             <KeyboardReturnOutlinedIcon className="mx-4 " />
-            <div className="flex flex-col text-sm ">
+            <span className="flex flex-col text-sm ">
               <span className="">Easy</span>
               <span>Return</span>
-            </div>
-          </div>
-        </Navbar.Link>
-        <Navbar.Link as={Link} href="#">
-          <div className="flex flex-row items-center">
+            </span>
+          </span>
+        </Link>
+        <Link href="#">
+          <span className="flex flex-row items-center">
             <LocalPoliceOutlinedIcon className="mx-4 " />
-            <div className="flex flex-col text-sm">
+            <span className="flex flex-col text-sm">
               <span className="fs-1">Secure</span>
               <span>Payment</span>
-            </div>
-          </div>
-        </Navbar.Link>
+            </span>
+          </span>
+        </Link>
       </Navbar.Collapse>
     </Navbar>
   );
-  // // <>
-  //   {/* <div className=" bg-white bg-cover mb-5">
-  //     <div className="flex justify-between items-center container mx-auto px-4 py-5">
-  //       <div>
-  //         <Image
-  //           src="/logo.png"
-  //           height={30}
-  //           width={80}
-  //           alt="Picture of the logo"
-  //         />
-  //       </div>
-  //       <h1 className="text-xl font-bold text-gray-700 dark:text-gray-100">
-  //         Edit Adress
-  //       </h1>
-  //
-  //
-  //
-  //       </div>
-  //     </div>
-  //   </div> */}
-  // {/* </> */}
 }
-
 export default MyNavbar;

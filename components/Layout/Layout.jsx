@@ -1,9 +1,9 @@
+"use client";
 import Link from "next/link";
 import MyNavbar from "../navbar/navbar";
 import ProccedToBuy from "../proccedToBuy/ProccedToBuy";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
-import FirstPage from "../../pages/EditAdress/page";
-import CustomerAdress from "../../pages/CustomerAdress/CustomerAdress";
+import FirstPage from "../../pages/editadress";
 
 function Layout({ children }) {
   return (

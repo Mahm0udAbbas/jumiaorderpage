@@ -1,3 +1,4 @@
+"use client";
 import ListHeader from "../Header/Header";
 import { Card } from "flowbite-react";
 
